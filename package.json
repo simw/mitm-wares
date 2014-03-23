@@ -1,0 +1,23 @@
+{
+  "name": "mitm-wares",
+  "version": "0.0.1",
+  "description": "Collection of assorted middlewares for mongo-in-the-middle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simw/mitm-wares"
+  },
+  "keywords": [
+    "mongo",
+    "middlware",
+    "mongo-in-the-middle"
+  ],
+  "author": "Simon Wicks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simw/mitm-wares/issues"
+  }
+}
