@@ -21,7 +21,8 @@
     "url": "https://github.com/simw/mitm-wares/issues"
   },
   "devDependencies": {
-      "mocha": "0.4.x",
+      "mocha": "1.18.x",
+      "chai": "1.9.x",
       "mongo-in-the-middle": "git://github.com/simw/mongo-in-the-middle#v0.0.1"
   }
 }

@@ -1,7 +1,6 @@
 
 test:
-	@./node_modules/.bin/mocha
+	@./node_modules/.bin/mocha -u tdd
 
-.PHONY:
-	test
+.PHONY: test
 
