@@ -4,7 +4,7 @@
   "description": "Collection of assorted middlewares for mongo-in-the-middle",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/simw/mitm-wares/issues"
+  },
+  "devDependencies": {
+      "mocha": "0.4.x",
+      "mongo-in-the-middle": "git://github.com/simw/mongo-in-the-middle#v0.0.1"
   }
 }
