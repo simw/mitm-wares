@@ -10,8 +10,17 @@ var config = {
 }; 
 
 suite('basic', function() {
-    test('Basic object creation', function() {
+    test('Basic object creation', function(done) {
         var app = new Mitm(config);
         expect(app).to.be.ok;
+
+        for (var mw in mware) {
+            expect(mw).to.exist;
+            app.use(mw);
+        }
+
+        app.init(function() {
+            done();
+        });
     });
 });
