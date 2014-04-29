@@ -23,6 +23,6 @@
   "devDependencies": {
       "mocha": "1.18.x",
       "chai": "1.9.x",
-      "mongo-in-the-middle": "git://github.com/simw/mongo-in-the-middle#v0.0.1"
+      "mongo-in-the-middle": "git://github.com/simw/mongo-in-the-middle"
   }
 }
